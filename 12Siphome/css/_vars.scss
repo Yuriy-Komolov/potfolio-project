@@ -1,0 +1,67 @@
+$primary-blue: #1c57c9;
+$primary-green: #1ece7a;
+$text-black: #262b35;
+$text-grey: #606c84;
+
+%btn {
+  color: #fff;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  padding: 13px 21px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  &:hover {
+    border: 1px solid $primary-green;
+    background-color: $primary-green;
+  }
+}
+
+%title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.6em;
+  color: $primary-blue;
+  text-transform: uppercase;
+}
+
+%subtitle {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 59px;
+  color: $text-black;
+  letter-spacing: -2%;
+}
+
+%feature-before {
+  content: "";
+  width: 290px;
+  height: 175px;
+  position: absolute;
+  top: -49px;
+  left: -57px;
+  z-index: -1;
+}
+
+%services {
+  position: absolute;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 700;
+  color: $primary-green;
+  padding: 10px;
+  border: 1px solid $primary-green;
+  border-radius: 20px;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+%slider-btn {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
